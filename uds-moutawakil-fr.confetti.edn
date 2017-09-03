@@ -1,0 +1,8 @@
+{:stack-id
+ "arn:aws:cloudformation:us-east-1:761400150875:stack/uds-moutawakil-fr/43e67980-90f3-11e7-aab4-50d5cd16c68e",
+ :secret-key "G8n16O+V9vhDBY3gvoYzVzDz+wYlNbTZcN1Q2Db6",
+ :bucket-name "uds-moutawakil-fr-sitebucket-q2idiobj4f3d",
+ :cloudfront-url "dpcdblwl59xfx.cloudfront.net",
+ :website-url "http://uds.moutawakil.fr",
+ :access-key "AKIAJQAOUGY3JJSO6NJA",
+ :cloudfront-id "E2DTNEL2YXQ40X"}
