@@ -4,10 +4,28 @@ backend:
   branch: master
 media_folder: "img/uploads"
 collections:
-  - name: "offres" # Used in routes, e.g., /admin/collections/blog
-    label: "Offres" # Used in the UI
-    folder: "_posts/offres" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+  - name: "self-guidance" # Used in routes, e.g., /admin/collections/blog
+    label: "Self Guidance" # Used in the UI
+    folder: "self-guidance" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template: title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "self-ateliers" # Used in routes, e.g., /admin/collections/blog
+    label: "Self Ateliers" # Used in the UI
+    folder: "self-ateliers" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template: title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "self-formation" # Used in routes, e.g., /admin/collections/blog
+    label: "Self Formation" # Used in the UI
+    folder: "self-formation" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template: title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
