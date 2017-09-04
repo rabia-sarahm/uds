@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Séances Individuelles 
+title: Séances Individuelles
 ---
-Hello !
+Salut Bande de Salopes !
